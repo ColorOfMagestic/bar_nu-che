@@ -1,2 +1,73 @@
 .page {
+    .intro {
+        margin-top: 80px;
+        height: 628px;
+        background: url(../img/main-banner_tlt.jpg) no-repeat center
+            center/cover;
+        &-content {
+            padding-top: 40px;
+            .intro-image {
+                width: 80%;
+                margin: 0 auto;
+            }
+            .intro-lead_magnet {
+                &-info {
+                    margin-top: 20px;
+                    line-height: 1;
+                    font-weight: 700;
+                    font-size: 20px;
+                    text-transform: uppercase;
+                    text-align: center;
+                    .arrow {
+                      width:25%;
+                      margin: 10px 0 20px;
+                      animation: slide 1s linear infinite alternate;
+                    }
+                  }
+                  &-btn {
+                    width: 100%;
+                    padding: 20px 0;
+                    font-size: 16px;
+                  }
+                  &-image {
+                    margin-top: 20px;
+                    width: 70%;
+                  }
+            }
+        }
+    }
 }
+
+@media (min-width: $lg) {
+    .page {
+      .intro {
+        margin-top: 0;
+        height: 940px;
+        &-content {
+            padding-top: 140px;
+            .intro-image {
+                width: 80%;
+                margin: 0 auto;
+            }
+            .intro-lead_magnet {
+              flex-direction: row;
+              justify-content: center;
+                &-info {
+                    margin-top: 20px;
+                    font-size: 30px;
+                  }
+                  &-btn {
+                    padding: 22px 0;
+                    font-size: 19px;
+                  }
+                  &-image {
+                    margin-top: 20px;
+                    margin-left: auto;
+                    width: 40%;
+                  }
+            }
+        }
+    }
+}
+}
+
