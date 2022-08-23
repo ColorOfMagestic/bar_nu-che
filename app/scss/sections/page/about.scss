@@ -19,6 +19,7 @@
         }
 
         .swiper-pagination {
+            bottom: 15px;
             &-bullet {
                 width: 10px;
                 height: 10px;
@@ -39,7 +40,7 @@
 
         .swiper-buttons {
             position: absolute;
-            bottom: 35px;
+            bottom: 40px;
             width: 100%;
             .swiper-button-prev,
             .swiper-button-next {
