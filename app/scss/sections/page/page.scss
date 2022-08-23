@@ -55,8 +55,18 @@
                 &-info {
                     margin-top: 20px;
                     font-size: 30px;
+                    .arrow {
+                      width:15%;
+                      margin: 10px 0 20px;
+                    }
+
+                    &_text {
+                      width: 70%;
+                    }
+
                   }
                   &-btn {
+                    width: 60%;
                     padding: 22px 0;
                     font-size: 19px;
                   }
