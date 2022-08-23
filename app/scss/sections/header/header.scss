@@ -4,13 +4,31 @@
     left: 0;
     right: 0;
     z-index: 100;
-    padding: 20px 0;
+    padding: 23px 0 20px;
     background-color: $headerColor;
 
     .logo {
         img {
-            width: 80%;
-            margin-bottom: -10px;
+            width: 121px;
+            margin-bottom: -5px;
         }
     }
 }
+@media(min-width: $lg) {
+    .header {
+        position: absolute;
+        padding: 46px 0;
+        background-color: transparent;
+    
+        .logo {
+            justify-content: flex-start;
+            width: 158px;
+            img {
+                width: 158px;
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+
