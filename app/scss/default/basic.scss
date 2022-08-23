@@ -31,10 +31,23 @@ body {
  
 
 .container {
-  // width: ;
+  width: 87.5%;
   margin: 0 auto;
 }
 
+
+.red {
+  color: $redColor;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateY(20px)
+  }
+  100% {
+    transform: translateY(-20px)ж
+  }
+}
 @media(min-width: $md) {
   .container {
     // width: 89.33%;
@@ -43,7 +56,7 @@ body {
 
 @media(min-width: $lg) {
   .container {
-    // width: 72.92%;
+    max-width: 1170px;
   }
 }
 
