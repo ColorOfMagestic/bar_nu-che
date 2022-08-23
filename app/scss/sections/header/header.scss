@@ -1,2 +1,16 @@
 .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    padding: 20px 0;
+    background-color: $headerColor;
+
+    .logo {
+        img {
+            width: 80%;
+            margin-bottom: -10px;
+        }
+    }
 }
