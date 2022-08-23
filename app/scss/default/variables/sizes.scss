@@ -9,9 +9,11 @@ $hg: 1920px;
 // title-size {
 .title {
   // font-family: "", sans-serif;
+  line-height: 1.1;
 
   &--sm {
     font-size: 31px;
+    font-weight: 700;
   }
   // &--md {
   //   font-size: 32px;
