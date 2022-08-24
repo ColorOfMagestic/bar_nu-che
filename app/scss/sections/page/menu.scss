@@ -51,6 +51,11 @@
           margin: 0;
           margin-top: 50px;
           font-size: 20px;
+          transition: 0.8s;
+          &:hover {
+            background-color: $whiteColor;
+            color: $redColor;
+          }
         }
       }
       .menu-image {
